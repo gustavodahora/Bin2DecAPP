@@ -1,9 +1,7 @@
 # Bin2DecAPP
 App to convert Binary to Decimal using Kotlin
 
-# Binary to Decimal Converter
-
-![Logo](projectPrint.png)
+## Binary to Decimal Converter
 
 ## Authors
 
