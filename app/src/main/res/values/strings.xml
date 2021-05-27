@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Binary to Decimal Converter</string>
+    <string name="binary">Binary</string>
+    <string name="Decimal">Decimal</string>
+    <string name="paste">Paste</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="enterText">Enter a binary number:</string>
+    <string name="convert">Convert</string>
+    <string name="clear">Clear</string>
+</resources>
