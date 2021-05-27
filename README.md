@@ -3,7 +3,7 @@ App to convert Binary to Decimal using Kotlin
 
 # Binary to Decimal Converter
 
-![Logo](git/projectPrint.png))
+![Logo](projectPrint.png)
 
 ## Authors
 
