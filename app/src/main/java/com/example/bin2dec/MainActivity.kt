@@ -37,7 +37,16 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun convert(view: View) {
-        var binary = binding.binary.getText().toString()
+
+        var binary: String? = binding.binary.text.toString()
+        if (binary == "") {
+            binary = "0"
+        } else {
+            var value = false
+            binary?.forEach {
+                value = it.isLetter()
+            }
+        }
         var decimal = binding.decimal
 
         var convert = Integer.parseInt(binary, 2)
@@ -51,7 +60,6 @@ class MainActivity : AppCompatActivity() {
     fun clipboard(view: View) {
         val clipboardManager = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
         var text = clipboardManager.primaryClip.toString()
-
 
         var paste = clipboardManager.primaryClip?.getItemAt(0)?.text.toString()
         binding.binary.setText(paste)
